@@ -19,6 +19,9 @@
 		D121C5E21441D60600C955F9 /* iSeriesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D121C5E11441D60600C955F9 /* iSeriesTests.h */; };
 		D121C5E41441D60600C955F9 /* iSeriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D121C5E31441D60600C955F9 /* iSeriesTests.m */; };
 		D121C5F01441D67800C955F9 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D121C5EF1441D67800C955F9 /* LoginController.m */; };
+		D1767B5914422D26008DDF7C /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1767B5814422D26008DDF7C /* YAJL.framework */; };
+		D1767B5D14422D8D008DDF7C /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1767B5C14422D8D008DDF7C /* YAJL.framework */; };
+		D1767B6314422E72008DDF7C /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = D1767B6214422E72008DDF7C /* Member.m */; };
 		D1CF20B81441F037003D27A5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF20B71441F037003D27A5 /* SystemConfiguration.framework */; };
 		D1CF20BA1441F080003D27A5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF20B91441F080003D27A5 /* libz.dylib */; };
 		D1CF20BC1441F08B003D27A5 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF20BB1441F08B003D27A5 /* CoreServices.framework */; };
@@ -43,6 +46,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D1767B5714422CA1008DDF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D1767B5D14422D8D008DDF7C /* YAJL.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D121C5B41441D60600C955F9 /* iSeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D121C5B81441D60600C955F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -65,29 +81,33 @@
 		D121C5E31441D60600C955F9 /* iSeriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSeriesTests.m; sourceTree = "<group>"; };
 		D121C5EE1441D67800C955F9 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = Classes/LoginController.h; sourceTree = "<group>"; };
 		D121C5EF1441D67800C955F9 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = Classes/LoginController.m; sourceTree = "<group>"; };
+		D1767B5814422D26008DDF7C /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = iSeries/Frameworks/YAJL.framework; sourceTree = "<group>"; };
+		D1767B5C14422D8D008DDF7C /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = iSeries/Frameworks/YAJL.framework; sourceTree = "<group>"; };
+		D1767B6114422E72008DDF7C /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		D1767B6214422E72008DDF7C /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
 		D1CF20B71441F037003D27A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D1CF20B91441F080003D27A5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D1CF20BB1441F08B003D27A5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		D1CF20BD1441F0FF003D27A5 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		D1CF20BE1441F10A003D27A5 /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
 		D1CF20BF1441F34B003D27A5 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = ASIHTTP/ASICacheDelegate.h; sourceTree = "<group>"; };
-		D1CF20C01441F34B003D27A5 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIDataCompressor.h; path = ASIHTTP/ASIDataCompressor.h; sourceTree = "<group>"; };
+		D1CF20C01441F34B003D27A5 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = ASIHTTP/ASIDataCompressor.h; sourceTree = "<group>"; };
 		D1CF20C11441F34B003D27A5 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = ASIHTTP/ASIDataCompressor.m; sourceTree = "<group>"; };
-		D1CF20C21441F34B003D27A5 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIDataDecompressor.h; path = ASIHTTP/ASIDataDecompressor.h; sourceTree = "<group>"; };
+		D1CF20C21441F34B003D27A5 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataDecompressor.h; path = ASIHTTP/ASIDataDecompressor.h; sourceTree = "<group>"; };
 		D1CF20C31441F34B003D27A5 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataDecompressor.m; path = ASIHTTP/ASIDataDecompressor.m; sourceTree = "<group>"; };
-		D1CF20C41441F34B003D27A5 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIDownloadCache.h; path = ASIHTTP/ASIDownloadCache.h; sourceTree = "<group>"; };
+		D1CF20C41441F34B003D27A5 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = ASIHTTP/ASIDownloadCache.h; sourceTree = "<group>"; };
 		D1CF20C51441F34B003D27A5 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = ASIHTTP/ASIDownloadCache.m; sourceTree = "<group>"; };
-		D1CF20C61441F34B003D27A5 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIFormDataRequest.h; path = ASIHTTP/ASIFormDataRequest.h; sourceTree = "<group>"; };
+		D1CF20C61441F34B003D27A5 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = ASIHTTP/ASIFormDataRequest.h; sourceTree = "<group>"; };
 		D1CF20C71441F34B003D27A5 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = ASIHTTP/ASIFormDataRequest.m; sourceTree = "<group>"; };
-		D1CF20C81441F34B003D27A5 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIHTTPRequest.h; path = ASIHTTP/ASIHTTPRequest.h; sourceTree = "<group>"; };
+		D1CF20C81441F34B003D27A5 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = ASIHTTP/ASIHTTPRequest.h; sourceTree = "<group>"; };
 		D1CF20C91441F34B003D27A5 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = ASIHTTP/ASIHTTPRequest.m; sourceTree = "<group>"; };
-		D1CF20CA1441F34B003D27A5 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIHTTPRequestConfig.h; path = ASIHTTP/ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
-		D1CF20CB1441F34B003D27A5 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIHTTPRequestDelegate.h; path = ASIHTTP/ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
-		D1CF20CC1441F34B003D27A5 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIInputStream.h; path = ASIHTTP/ASIInputStream.h; sourceTree = "<group>"; };
+		D1CF20CA1441F34B003D27A5 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = ASIHTTP/ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		D1CF20CB1441F34B003D27A5 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = ASIHTTP/ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		D1CF20CC1441F34B003D27A5 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = ASIHTTP/ASIInputStream.h; sourceTree = "<group>"; };
 		D1CF20CD1441F34B003D27A5 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = ASIHTTP/ASIInputStream.m; sourceTree = "<group>"; };
-		D1CF20CE1441F34B003D27A5 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASINetworkQueue.h; path = ASIHTTP/ASINetworkQueue.h; sourceTree = "<group>"; };
+		D1CF20CE1441F34B003D27A5 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = ASIHTTP/ASINetworkQueue.h; sourceTree = "<group>"; };
 		D1CF20CF1441F34B003D27A5 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = ASIHTTP/ASINetworkQueue.m; sourceTree = "<group>"; };
-		D1CF20D01441F34B003D27A5 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; name = ASIProgressDelegate.h; path = ASIHTTP/ASIProgressDelegate.h; sourceTree = "<group>"; };
+		D1CF20D01441F34B003D27A5 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = ASIHTTP/ASIProgressDelegate.h; sourceTree = "<group>"; };
 		D1CF20D914420A77003D27A5 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "Categories/NSString+MD5.h"; sourceTree = "<group>"; };
 		D1CF20DA14420A77003D27A5 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "Categories/NSString+MD5.m"; sourceTree = "<group>"; };
 		D1CF20DC14420AC3003D27A5 /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
@@ -103,6 +123,7 @@
 				D1CF20BA1441F080003D27A5 /* libz.dylib in Frameworks */,
 				D1CF20B81441F037003D27A5 /* SystemConfiguration.framework in Frameworks */,
 				D121C5B91441D60600C955F9 /* Cocoa.framework in Frameworks */,
+				D1767B5914422D26008DDF7C /* YAJL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +142,7 @@
 		D121C5A91441D60500C955F9 = {
 			isa = PBXGroup;
 			children = (
+				D1767B5C14422D8D008DDF7C /* YAJL.framework */,
 				D1CF20DC14420AC3003D27A5 /* libcommonCrypto.dylib */,
 				D1CF20BB1441F08B003D27A5 /* CoreServices.framework */,
 				D1CF20B91441F080003D27A5 /* libz.dylib */,
@@ -144,6 +166,7 @@
 		D121C5B71441D60600C955F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1767B5814422D26008DDF7C /* YAJL.framework */,
 				D121C5B81441D60600C955F9 /* Cocoa.framework */,
 				D121C5D61441D60600C955F9 /* SenTestingKit.framework */,
 				D121C5BA1441D60600C955F9 /* Other Frameworks */,
@@ -217,12 +240,38 @@
 		D121C5F91441DDB600C955F9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D1767B5F14422E2C008DDF7C /* main */,
+				D121C5ED1441D64400C955F9 /* Login */,
+				D1767B5E14422E22008DDF7C /* Models */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D1767B5E14422E22008DDF7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1767B6014422E59008DDF7C /* Auth */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D1767B5F14422E2C008DDF7C /* main */ = {
+			isa = PBXGroup;
+			children = (
 				D121C5CA1441D60600C955F9 /* iSeriesAppDelegate.h */,
 				D121C5CB1441D60600C955F9 /* iSeriesAppDelegate.m */,
 				D121C5CD1441D60600C955F9 /* MainMenu.xib */,
-				D121C5ED1441D64400C955F9 /* Login */,
 			);
-			name = Classes;
+			name = main;
+			sourceTree = "<group>";
+		};
+		D1767B6014422E59008DDF7C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D1767B6114422E72008DDF7C /* Member.h */,
+				D1767B6214422E72008DDF7C /* Member.m */,
+			);
+			name = Auth;
 			sourceTree = "<group>";
 		};
 		D1CF20991441EFDD003D27A5 /* ASIHTTP */ = {
@@ -277,6 +326,7 @@
 				D121C5B01441D60600C955F9 /* Sources */,
 				D121C5B11441D60600C955F9 /* Frameworks */,
 				D121C5B21441D60600C955F9 /* Resources */,
+				D1767B5714422CA1008DDF7C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -386,6 +436,7 @@
 				D1CF20D61441F34B003D27A5 /* ASIInputStream.m in Sources */,
 				D1CF20D71441F34B003D27A5 /* ASINetworkQueue.m in Sources */,
 				D1CF20DB14420A77003D27A5 /* NSString+MD5.m in Sources */,
+				D1767B6314422E72008DDF7C /* Member.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,10 +545,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/iSeries\"",
+					"\"$(SRCROOT)/iSeries/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iSeries/iSeries-Prefix.pch";
 				INFOPLIST_FILE = "iSeries/iSeries-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",
@@ -513,10 +567,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/iSeries\"",
+					"\"$(SRCROOT)/iSeries/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iSeries/iSeries-Prefix.pch";
 				INFOPLIST_FILE = "iSeries/iSeries-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",

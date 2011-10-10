@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <YAJL/YAJL.h>
 
 @interface LoginController : NSWindow{
   NSTextField * loginTextField_;

@@ -11,9 +11,12 @@
 #import "Constant.h"
 #import "ASIHTTPRequest.h"
 #import "NSString+MD5.h"
+#import "Member.h"
 
 @interface LoginController (PrivateMethods)
-- (void) showAlertPanelWithMessage:(NSString*)message;
+- (void) showAlertPanelWithTitle:(NSString*)title
+                      andMessage:(NSString*)message;
+- (Member*) retrieveMemberWithResponse:(NSDictionary*)dictionnary;
 @end
 
 @implementation LoginController
@@ -44,16 +47,19 @@
   [request setCompletionBlock:^{
     // Use when fetching text data
     NSString *responseString = [request responseString];
-    [self showAlertPanelWithMessage:responseString];
+    NSDictionary * responseDict = [responseString yajl_JSON];
+    [self retrieveMemberWithResponse:responseDict];
   }];
   [request setFailedBlock:^{
     NSError *error = [request error];
+    NSLog(@"Erreur : %@", error);
   }];
   [request startAsynchronous];
 }
 
 
-- (void) showAlertPanelWithMessage:(NSString*)message{
+- (void) showAlertPanelWithTitle:(NSString*)title
+                      andMessage:(NSString*)message{
   NSAlert * alertPanel = [NSAlert alertWithMessageText:@"Message"
                                          defaultButton:@"Ok"
                                        alternateButton:nil
@@ -63,6 +69,23 @@
                          modalDelegate:self
                         didEndSelector:nil
                            contextInfo:nil];
+}
+
+- (Member*) retrieveMemberWithResponse:(NSDictionary*)dictionnary{
+  NSDictionary * rootDict = [dictionnary objectForKey:@"root"];
+  NSDictionary * errors = [rootDict objectForKey:@"errors"];
+  
+  if ([[errors allValues] count] > 0) {
+    NSString * errorMessage = [errors objectForKey:@"error"];
+    [self showAlertPanelWithTitle:@"Erreur lors de l'identification"
+                       andMessage:errorMessage];
+    return nil;
+  }
+  
+  NSDictionary * memberDict = [rootDict objectForKey:@"member"];
+  Member * member = [[Member alloc] 
+                     initWithDictionnary:memberDict];
+  return member;
 }
 
 - (void) dealloc{
