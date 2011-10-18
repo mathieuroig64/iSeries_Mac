@@ -1,0 +1,601 @@
+TiSeries
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Info.plist iSeries/iSeries-Info.plist
+cProcessPCH /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch.pth iSeries/iSeries-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/main.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeriesAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataDecompressor.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIInputStream.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/NSString+MD5.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/Member.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Member.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/EDSideBar.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries normal x86_64
+cGenerateDSYMFile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app.dSYM /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries
+cCompileXIB /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/MainMenu.xib
+cCpResource iSeries/en.lproj/Credits.rtf build/Release/iSeries.app/Contents/Resources/en.lproj/Credits.rtf
+cCopyStringsFile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj/InfoPlist.strings iSeries/en.lproj/InfoPlist.strings
+cCpResource iSeries/images/menu/icon1-blue.png build/Release/iSeries.app/Contents/Resources/icon1-blue.png
+cCpResource iSeries/images/menu/icon1-gray.png build/Release/iSeries.app/Contents/Resources/icon1-gray.png
+cCpResource iSeries/images/menu/icon1-white.png build/Release/iSeries.app/Contents/Resources/icon1-white.png
+cPBXCp iSeries/Frameworks/YAJL.framework build/Release/iSeries.app/Contents/Frameworks/YAJL.framework
+cTouch /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E96A00F00000000000000EE
+t1318494223
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E7AD7020000000000002470
+t1316673282
+s9328
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004E7AD7030000000000007B40
+t1316673283
+s31552
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004E7AD704000000000002B72C
+t1316673284
+s177964
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libz.dylib
+c000000004E7AD70B00000000000043C4
+t1316673291
+s17348
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/lib/system/libcommonCrypto.dylib
+c000000004E7AD70B0000000000006260
+t1316673291
+s25184
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app.dSYM
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Frameworks/YAJL.framework
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Info.plist
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/icon1-blue.png
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/icon1-gray.png
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/icon1-white.png
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataCompressor.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataDecompressor.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDownloadCache.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIFormDataRequest.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIHTTPRequest.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIInputStream.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASINetworkQueue.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/EDSideBar.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/Member.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/NSString+MD5.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeries.LinkFileList
+c000000004E9D3C6C00000000000005CA
+t1318927468
+s1482
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataCompressor.m
+c000000004E96D9DE0000000000001A63
+t1318509022
+s6755
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataDecompressor.m
+c000000004E96D9DE0000000000001916
+t1318509022
+s6422
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDownloadCache.m
+c000000004E96D9DE0000000000004561
+t1318509022
+s17761
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIFormDataRequest.m
+c000000004E96D9DE0000000000002C02
+t1318509022
+s11266
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIHTTPRequest.m
+c000000004E96D9DE000000000002CF34
+t1318509022
+s184116
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIInputStream.m
+c000000004E96D9DE0000000000000C32
+t1318509022
+s3122
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASINetworkQueue.m
+c000000004E96D9DE0000000000002C8D
+t1318509022
+s11405
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m
+c000000004E96D9DE0000000000000319
+t1318509022
+s793
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m
+c000000004E9C52C90000000000002562
+t1318867657
+s9570
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks/YAJL.framework
+c000000004E96D9DE00000000000000CC
+t1318509022
+s204
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks/YAJL.framework/YAJL
+c000000004E96D9DE0000000000040F94
+t1318509022
+s266132
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Member.m
+c000000004E96D9DE000000000000020B
+t1318509022
+s523
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/Credits.rtf
+c000000004E96D9DE00000000000001B4
+t1318509022
+s436
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/InfoPlist.strings
+c000000004E96D9DE000000000000002D
+t1318509022
+s45
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/MainMenu.xib
+c000000004E9D3BEB0000000000025B66
+t1318927339
+s154470
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeries-Prefix.pch
+c000000004E96D9DE000000000000008F
+t1318509022
+s143
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeriesAppDelegate.m
+c000000004E9D3B870000000000000A7C
+t1318927239
+s2684
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/images/menu/icon1-blue.png
+c000000004E9C47F00000000000000AC5
+t1318864880
+s2757
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/images/menu/icon1-gray.png
+c000000004E9C47F00000000000000980
+t1318864880
+s2432
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/images/menu/icon1-white.png
+c000000004E9C47F000000000000009B2
+t1318864880
+s2482
+
+N/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/main.m
+c000000004E9C519A00000000000000EF
+t1318867354
+s239
+
+N/var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch.pth
+t2
+s0
+
+NiSeries/iSeries-Info.plist
+c000000004E96D9DE00000000000004B4
+t1318509022
+s1204
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataCompressor.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataDecompressor.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDownloadCache.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIFormDataRequest.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIHTTPRequest.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIInputStream.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASINetworkQueue.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Member.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeriesAppDelegate.m
+r0
+
+CBuild AST from /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesab9234ec734db441^210157ec734db441^---0#1#0#--18"Check dependencies36"47B03D45-7DDA-4546-A35F-9FDDAE8140AB-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620269.993476
+e340620270.133480
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataCompressor.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataCompressor.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataCompressor.m4167feed734db441^f12b22ee734db441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataCompressor.m0000000000000000^2447"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataCompressor.o iSeries/ASIHTTP/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataCompressor.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataCompressor.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataCompressor.o36"2C8B6BFE-034C-498B-9EEF-0F788A950819-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataDecompressor.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620269.993485
+e340620270.125846
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataDecompressor.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataDecompressor.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataDecompressor.mc767feed734db441^c53720ee734db441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataDecompressor.m0000000000000000^2457"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataDecompressor.o iSeries/ASIHTTP/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataDecompressor.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDataDecompressor.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDataDecompressor.o36"B1F206CE-5563-4F0F-9747-A3D1BB03BDAE-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620270.068822
+e340620270.425745
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDownloadCache.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDownloadCache.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDownloadCache.mfdc011ee734db441^711f6dee734db441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDownloadCache.m0000000000000000^2442"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDownloadCache.o iSeries/ASIHTTP/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDownloadCache.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIDownloadCache.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIDownloadCache.o36"11463D6B-77E1-48A6-8396-94956A387C3C-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620270.099124
+e340620270.353040
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIFormDataRequest.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIFormDataRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIFormDataRequest.m99b819ee734db441^4e605aee734db441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIFormDataRequest.m0000000000000000^2452"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIFormDataRequest.o iSeries/ASIHTTP/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIFormDataRequest.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIFormDataRequest.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIFormDataRequest.o36"2E7C2747-9F86-475C-971A-10DF974EB4A0-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620270.127262
+e340620271.350719
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIHTTPRequest.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIHTTPRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIHTTPRequest.mcfc020ee734db441^c9c859ef734db441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIHTTPRequest.m0000000000000000^2432"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIHTTPRequest.o iSeries/ASIHTTP/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIHTTPRequest.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIHTTPRequest.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIHTTPRequest.o36"3ABBC9BA-118B-405A-AD3D-76AB0CD62F86-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIInputStream.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620270.134786
+e340620270.229032
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIInputStream.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIInputStream.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIInputStream.m66a422ee734db441^d7a13aee734db441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIInputStream.m0000000000000000^2432"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIInputStream.o iSeries/ASIHTTP/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIInputStream.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASIInputStream.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASIInputStream.o36"453D7B69-2396-4F5D-996C-DAB57CD6D286-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620270.230396
+e340620270.505936
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASINetworkQueue.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASINetworkQueue.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASINetworkQueue.mea243bee734db441^860399ee734db441^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASINetworkQueue.m0000000000000000^2437"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASINetworkQueue.o iSeries/ASIHTTP/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASINetworkQueue.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/ASIHTTP/ASINetworkQueue.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/ASINetworkQueue.o36"1503F07B-20D3-4945-81F1-203E6F7E7E1B-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/EDSideBar.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620270.449119
+e340620270.630641
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/EDSideBar.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m:242:1: warning: writable atomic property 'layoutMode' cannot pair a synthesized setter/getter with a user defined setter/getter [3]
+o -(void)setLayoutMode:(ECSideBarLayoutMode)mode
+o ^
+o/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.h:53:55: note: property declared here [3]
+o @property (setter=setLayoutMode:) ECSideBarLayoutMode layoutMode;
+o                                                       ^
+o/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m:248:1: warning: writable atomic property 'buttonsHeight' cannot pair a synthesized setter/getter with a user defined setter/getter [3]
+o -(void)setButtonsHeight:(CGFloat)heigth
+o ^
+o/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.h:54:46: note: property declared here [3]
+o @property (setter=setButtonsHeight:) CGFloat buttonsHeight;
+o                                              ^
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.md61d73ee734db441^151aa4ee734db441^-949"/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m:242:1: warning: writable atomic property 'layoutMode' cannot pair a synthesized setter/getter with a user defined setter/getter [3] -(void)setLayoutMode:(ECSideBarLayoutMode)mode ^/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.h:53:55: note: property declared here [3] @property (setter=setLayoutMode:) ECSideBarLayoutMode layoutMode;                                                       ^/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m:248:1: warning: writable atomic property 'buttonsHeight' cannot pair a synthesized setter/getter with a user defined setter/getter [3] -(void)setButtonsHeight:(CGFloat)heigth ^/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.h:54:46: note: property declared here [3] @property (setter=setButtonsHeight:) CGFloat buttonsHeight;                                              ^2 warnings generated.2(21%IDEActivityLogMessage2@111"Writable atomic property 'layoutMode' cannot pair a synthesized setter/getter with a user defined setter/getter-340620270#0#195#1(2@22"Property declared here-340620270#246#103#-0#-23%DVTTextDocumentLocation3@78"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.h0000000000000000^52#54#52#54#18446744073709551615#0#14"Semantic Issue--1#-3@78"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m0000000000000000^241#0#241#0#18446744073709551615#0#14"Semantic Issue--2@114"Writable atomic property 'buttonsHeight' cannot pair a synthesized setter/getter with a user defined setter/getter-340620270#473#198#1(2@22"Property declared here-340620270#715#103#-0#-3@78"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.h0000000000000000^53#45#53#45#18446744073709551615#0#14"Semantic Issue--1#-3@78"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m0000000000000000^247#0#247#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m0000000000000000^2391"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/EDSideBar.o iSeries/EDSideBar.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/EDSideBar.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/EDSideBar.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/EDSideBar.o36"32DAE542-90C7-420A-857D-6ED5390A7F8E-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/Member.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Member.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620270.426982
+e340620270.510551
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/Member.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Member.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Member.m0c786dee734db441^fa0b99ee734db441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Member.m0000000000000000^2376"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/Member.o iSeries/Member.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/Member.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Member.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/Member.o36"7C07CFFB-72D3-406E-A060-BBD3CC021597-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/NSString+MD5.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620270.359631
+e340620270.447763
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/NSString+MD5.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m:23:15:{23:15-23:26}{23:3-23:9}: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'CC_LONG' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o   CC_MD5(ptr, strlen(ptr), md5Buffer);
+o   ~~~~~~      ^~~~~~~~~~~
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.md87f5dee734db441^fda072ee734db441^-339"/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m:23:15:{23:15-23:26}{23:3-23:9}: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'CC_LONG' (aka 'unsigned int') [-Wshorten-64-to-32,3]   CC_MD5(ptr, strlen(ptr), md5Buffer);   ~~~~~~      ^~~~~~~~~~~1 warning generated.1(21%IDEActivityLogMessage2@109"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'CC_LONG' (aka 'unsigned int')53"Implicit conversion loses integer precision: 'size_t'340620270#0#251#-1#-23%DVTTextDocumentLocation3@92"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m0000000000000000^22#14#22#14#18446744073709551615#0#14"Semantic Issue2(3@92"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m0000000000000000^22#14#22#25#18446744073709551615#0#3@92"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m0000000000000000^22#2#22#8#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@92"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m0000000000000000^2428"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/NSString+MD5.o iSeries/Categories/NSString+MD5.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/NSString+MD5.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Categories/NSString+MD5.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/NSString+MD5.o36"5AD5E7B2-9804-4D87-8414-C31FBDC2E3F6-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeriesAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620269.992919
+e340620270.097692
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeriesAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeriesAppDelegate.mfe47feed734db441^790219ee734db441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeriesAppDelegate.m0000000000000000^2436"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.o iSeries/iSeriesAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeriesAppDelegate.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.o36"58EC6508-D1FC-479A-897D-6B2D9E472AF4-
+
+CCompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/main.o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620269.992913
+e340620270.067465
+r1
+xCompileC
+xbuild/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/main.o
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/main.md046feed734db441^524511ee734db441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/main.m0000000000000000^2366"CompileC build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/main.o iSeries/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -include /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch -MMD -MT dependencies -MF /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/main.d -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/main.m -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/main.o36"5B00AFA0-7674-4C9F-9D63-E659C7EC6E8F-
+
+CCompileXIB /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/MainMenu.xib
+s340620271.538175
+e340620272.776506
+r1
+xCompileXIB
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/MainMenu.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compiling /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/MainMenu.xibc2d989ef734db441^4bc9c6f0734db441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/MainMenu.xib0000000000000000^475"CompileXIB iSeries/en.lproj/MainMenu.xib    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj/MainMenu.nib /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.7.sdk36"7CBAADEC-66F3-48F0-8174-E399F7AD8B6E-
+
+CCopyStringsFile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj/InfoPlist.strings iSeries/en.lproj/InfoPlist.strings
+s340620271.538185
+e340620271.567937
+r1
+xCopyStringsFile
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj/InfoPlist.strings
+xiSeries/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy iSeries/en.lproj/InfoPlist.stringscfda89ef734db441^906991ef734db441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/InfoPlist.strings0000000000000000^398"CopyStringsFile build/Release/iSeries.app/Contents/Resources/en.lproj/InfoPlist.strings iSeries/en.lproj/InfoPlist.strings    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj -- iSeries/en.lproj/InfoPlist.strings36"4DC11514-348C-4BDE-9010-C842BCE76410-
+
+CCpResource iSeries/en.lproj/Credits.rtf build/Release/iSeries.app/Contents/Resources/en.lproj/Credits.rtf
+s340620271.538193
+e340620271.552434
+r1
+xCpResource
+xiSeries/en.lproj/Credits.rtf
+xbuild/Release/iSeries.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release/iSeries.app/Contents/Resources/en.lproj/Credits.rtf84d889ef734db441^db6f8def734db441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj/Credits.rtf00f45c2fddffdf42^458"CpResource iSeries/en.lproj/Credits.rtf build/Release/iSeries.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/en.lproj/Credits.rtf /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/en.lproj36"0F419088-4CFE-468F-BFD0-86B2F2D374A3-
+
+CCpResource iSeries/images/menu/icon1-blue.png build/Release/iSeries.app/Contents/Resources/icon1-blue.png
+s340620271.538453
+e340620271.570191
+r1
+xCpResource
+xiSeries/images/menu/icon1-blue.png
+xbuild/Release/iSeries.app/Contents/Resources/icon1-blue.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release/iSeries.app/Contents/Resources/icon1-blue.png79e689ef734db441^69fd91ef734db441^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/icon1-blue.png00f45c2fddffdf42^455"CpResource iSeries/images/menu/icon1-blue.png build/Release/iSeries.app/Contents/Resources/icon1-blue.png    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/images/menu/icon1-blue.png /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources36"E7B13F4F-9672-418C-9D01-40DFC4737A43-
+
+CCpResource iSeries/images/menu/icon1-gray.png build/Release/iSeries.app/Contents/Resources/icon1-gray.png
+s340620271.569436
+e340620271.571865
+r1
+xCpResource
+xiSeries/images/menu/icon1-gray.png
+xbuild/Release/iSeries.app/Contents/Resources/icon1-gray.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release/iSeries.app/Contents/Resources/icon1-gray.png16da91ef734db441^776692ef734db441^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/icon1-gray.png00f45c2fddffdf42^455"CpResource iSeries/images/menu/icon1-gray.png build/Release/iSeries.app/Contents/Resources/icon1-gray.png    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/images/menu/icon1-gray.png /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources36"3B9627D2-F803-4B9A-BE8F-9A09220B809C-
+
+CCpResource iSeries/images/menu/icon1-white.png build/Release/iSeries.app/Contents/Resources/icon1-white.png
+s340620271.569864
+e340620271.572992
+r1
+xCpResource
+xiSeries/images/menu/icon1-white.png
+xbuild/Release/iSeries.app/Contents/Resources/icon1-white.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release/iSeries.app/Contents/Resources/icon1-white.png62f391ef734db441^5cae92ef734db441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources/icon1-white.png00f45c2fddffdf42^458"CpResource iSeries/images/menu/icon1-white.png build/Release/iSeries.app/Contents/Resources/icon1-white.png    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/images/menu/icon1-white.png /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Resources36"E3C8B617-9687-4CE2-9E6E-74696084A3B8-
+
+CGenerateDSYMFile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app.dSYM /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries
+s340620271.419516
+e340620271.528993
+r1
+xGenerateDSYMFile
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app.dSYM
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generating /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app.dSYM2e766bef734db441^6a6c87ef734db441^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app.dSYM00f45c2fddffdf42^348"GenerateDSYMFile build/Release/iSeries.app.dSYM build/Release/iSeries.app/Contents/MacOS/iSeries    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    /Developer/usr/bin/dsymutil /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app.dSYM36"143C834D-20AE-4980-BE07-03CCA98C698D-
+
+CLd /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries normal x86_64
+s340620271.358541
+e340620271.412038
+r1
+xLd
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries59dc5bef734db441^ea7b69ef734db441^---0#0#0#--988"Ld build/Release/iSeries.app/Contents/MacOS/iSeries normal x86_64    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -L/Developer/SDKs/MacOSX10.7.sdk/usr/lib/system -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -filelist /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/Objects-normal/x86_64/iSeries.LinkFileList -Xlinker -rpath -Xlinker "@loader_path/../Frameworks" -mmacosx-version-min=10.6 -lcommonCrypto -framework CoreServices -lz -framework SystemConfiguration -framework Cocoa -framework YAJL -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/MacOS/iSeries36"44687F01-D0B3-4D14-A18A-89AA869C1914-
+
+CPBXCp iSeries/Frameworks/YAJL.framework build/Release/iSeries.app/Contents/Frameworks/YAJL.framework
+s340620272.785278
+e340620272.824592
+r1
+xPBXCp
+xiSeries/Frameworks/YAJL.framework
+xbuild/Release/iSeries.app/Contents/Frameworks/YAJL.framework
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release/iSeries.app/Contents/Frameworks/YAJL.frameworka41bc9f0734db441^b421d3f0734db441^-235"/usr/bin/strip -S /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks/YAJL.framework/Versions/A/YAJL -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Frameworks/YAJL.framework/Versions/A/YAJL -0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Frameworks/YAJL.framework00f45c2fddffdf42^450"PBXCp iSeries/Frameworks/YAJL.framework build/Release/iSeries.app/Contents/Frameworks/YAJL.framework    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks/YAJL.framework /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Frameworks36"47DBF5A1-8AF7-4D05-B6F6-38F8B0AEEFAD-
+
+CProcessInfoPlistFile /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Info.plist iSeries/iSeries-Info.plist
+s340620268.344058
+e340620268.347554
+r1
+xProcessInfoPlistFile
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Info.plist
+xiSeries/iSeries-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process iSeries/iSeries-Info.plistaf2158ec734db441^7cb55bec734db441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeries-Info.plist0000000000000000^428"ProcessInfoPlistFile build/Release/iSeries.app/Contents/Info.plist iSeries/iSeries-Info.plist    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    builtin-infoPlistUtility iSeries/iSeries-Info.plist -genpkginfo /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app/Contents/Info.plist36"A3C8C681-1C0B-4F10-B218-A9406B05B550-
+
+CProcessPCH /Users/mrg/Library/Developer/Xcode/DerivedData/iSeries-avshdmasimpyfngtmdkxywggihjr/Index/PrecompiledHeaders/iSeries-Prefix-avlhvwlqeuqmiwhiledwojxsauwo_ast/iSeries-Prefix.pch.pth iSeries/iSeries-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch.pth iSeries/iSeries-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s340620268.355652
+e340620269.985883
+r1
+xProcessPCH
+x/var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch.pth
+xiSeries/iSeries-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile iSeries/iSeries-Prefix.pch382e5bec734db441^2c62fced734db441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeries-Prefix.pch0000000000000000^2427"ProcessPCH /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch.pth iSeries/iSeries-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-generated-files.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-own-target-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-all-target-headers.hmap -iquote /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/iSeries-project-headers.hmap -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/include -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources/x86_64 -I/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Release/iSeries.build/DerivedSources -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries -F/Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/Frameworks -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/iSeries/iSeries-Prefix.pch -o /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-bhdhzciqlxgqlqdmdokpezktylbd/iSeries-Prefix.pch.d36"1AA1B849-47F2-4D6B-B0F0-1C22E7B5EB33-
+
+CTouch /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app
+s340620272.848637
+e340620272.869760
+r1
+xTouch
+x/Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Touch /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.appe44addf0734db441^b9a8def0734db441^---0#0#0#--173"Touch build/Release/iSeries.app    cd /Users/mrg/Documents/Dev/Perso/iSeries_Mac    /usr/bin/touch -c /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Release/iSeries.app36"D834197A-9310-40F3-97A8-2CD374C211D7-
+

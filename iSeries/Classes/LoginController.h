@@ -9,10 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <YAJL/YAJL.h>
 
-@interface LoginController : NSWindow{
+@interface LoginController : NSViewController{
   NSTextField * loginTextField_;
   NSSecureTextField * passwordTextField_;
   NSButton * loginButton_;
+  @private
+  NSString * login_;
+  NSString * password_;
 }
 
 @property (nonatomic, retain) IBOutlet NSTextField * loginTextField;
@@ -20,5 +23,6 @@
 @property (nonatomic, retain) IBOutlet NSButton * loginButton;
 
 - (IBAction)didClickOnIdentification:(id)sender;
+- (IBAction)didClickOnCreateAccount:(id)sender;
 
 @end

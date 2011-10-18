@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36D5DECF144C8080007EDD88 /* icon1-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D5DECC144C8080007EDD88 /* icon1-blue.png */; };
+		36D5DED0144C8080007EDD88 /* icon1-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D5DECD144C8080007EDD88 /* icon1-gray.png */; };
+		36D5DED1144C8080007EDD88 /* icon1-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D5DECE144C8080007EDD88 /* icon1-white.png */; };
+		36D5DED6144C8147007EDD88 /* EDSideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5DED5144C8147007EDD88 /* EDSideBar.m */; };
 		D121C5B91441D60600C955F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D121C5B81441D60600C955F9 /* Cocoa.framework */; };
 		D121C5C31441D60600C955F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D121C5C11441D60600C955F9 /* InfoPlist.strings */; };
 		D121C5C51441D60600C955F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D121C5C41441D60600C955F9 /* main.m */; };
@@ -18,7 +22,6 @@
 		D121C5E01441D60600C955F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D121C5DE1441D60600C955F9 /* InfoPlist.strings */; };
 		D121C5E21441D60600C955F9 /* iSeriesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D121C5E11441D60600C955F9 /* iSeriesTests.h */; };
 		D121C5E41441D60600C955F9 /* iSeriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D121C5E31441D60600C955F9 /* iSeriesTests.m */; };
-		D121C5F01441D67800C955F9 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D121C5EF1441D67800C955F9 /* LoginController.m */; };
 		D1767B5914422D26008DDF7C /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1767B5814422D26008DDF7C /* YAJL.framework */; };
 		D1767B5D14422D8D008DDF7C /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1767B5C14422D8D008DDF7C /* YAJL.framework */; };
 		D1767B6314422E72008DDF7C /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = D1767B6214422E72008DDF7C /* Member.m */; };
@@ -60,6 +63,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		36D5DECC144C8080007EDD88 /* icon1-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon1-blue.png"; path = "iSeries/images/menu/icon1-blue.png"; sourceTree = "<group>"; };
+		36D5DECD144C8080007EDD88 /* icon1-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon1-gray.png"; path = "iSeries/images/menu/icon1-gray.png"; sourceTree = "<group>"; };
+		36D5DECE144C8080007EDD88 /* icon1-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon1-white.png"; path = "iSeries/images/menu/icon1-white.png"; sourceTree = "<group>"; };
+		36D5DED4144C8147007EDD88 /* EDSideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSideBar.h; sourceTree = "<group>"; };
+		36D5DED5144C8147007EDD88 /* EDSideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSideBar.m; sourceTree = "<group>"; };
 		D121C5B41441D60600C955F9 /* iSeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D121C5B81441D60600C955F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D121C5BB1441D60600C955F9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -79,8 +87,6 @@
 		D121C5DF1441D60600C955F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D121C5E11441D60600C955F9 /* iSeriesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iSeriesTests.h; sourceTree = "<group>"; };
 		D121C5E31441D60600C955F9 /* iSeriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSeriesTests.m; sourceTree = "<group>"; };
-		D121C5EE1441D67800C955F9 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = Classes/LoginController.h; sourceTree = "<group>"; };
-		D121C5EF1441D67800C955F9 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = Classes/LoginController.m; sourceTree = "<group>"; };
 		D1767B5814422D26008DDF7C /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = iSeries/Frameworks/YAJL.framework; sourceTree = "<group>"; };
 		D1767B5C14422D8D008DDF7C /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = iSeries/Frameworks/YAJL.framework; sourceTree = "<group>"; };
 		D1767B6114422E72008DDF7C /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
@@ -139,6 +145,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36D5DEC4144C7EA2007EDD88 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		36D5DECA144C8068007EDD88 /* ressources */ = {
+			isa = PBXGroup;
+			children = (
+				36D5DECB144C8075007EDD88 /* Menu */,
+			);
+			name = ressources;
+			sourceTree = "<group>";
+		};
+		36D5DECB144C8075007EDD88 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				36D5DECC144C8080007EDD88 /* icon1-blue.png */,
+				36D5DECD144C8080007EDD88 /* icon1-gray.png */,
+				36D5DECE144C8080007EDD88 /* icon1-white.png */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		36D5DED2144C811E007EDD88 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				36D5DED3144C8126007EDD88 /* SideBar */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		36D5DED3144C8126007EDD88 /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				36D5DED4144C8147007EDD88 /* EDSideBar.h */,
+				36D5DED5144C8147007EDD88 /* EDSideBar.m */,
+			);
+			name = SideBar;
+			sourceTree = "<group>";
+		};
 		D121C5A91441D60500C955F9 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +199,7 @@
 				D121C5DB1441D60600C955F9 /* iSeriesTests */,
 				D121C5B71441D60600C955F9 /* Frameworks */,
 				D121C5B51441D60600C955F9 /* Products */,
+				36D5DECA144C8068007EDD88 /* ressources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,8 +280,6 @@
 		D121C5ED1441D64400C955F9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				D121C5EE1441D67800C955F9 /* LoginController.h */,
-				D121C5EF1441D67800C955F9 /* LoginController.m */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -240,7 +287,9 @@
 		D121C5F91441DDB600C955F9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				36D5DED2144C811E007EDD88 /* Components */,
 				D1767B5F14422E2C008DDF7C /* main */,
+				36D5DEC4144C7EA2007EDD88 /* Main */,
 				D121C5ED1441D64400C955F9 /* Login */,
 				D1767B5E14422E22008DDF7C /* Models */,
 			);
@@ -362,6 +411,7 @@
 		D121C5AB1441D60600C955F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Apocope;
 			};
 			buildConfigurationList = D121C5AE1441D60600C955F9 /* Build configuration list for PBXProject "iSeries" */;
@@ -390,6 +440,9 @@
 				D121C5C31441D60600C955F9 /* InfoPlist.strings in Resources */,
 				D121C5C91441D60600C955F9 /* Credits.rtf in Resources */,
 				D121C5CF1441D60600C955F9 /* MainMenu.xib in Resources */,
+				36D5DECF144C8080007EDD88 /* icon1-blue.png in Resources */,
+				36D5DED0144C8080007EDD88 /* icon1-gray.png in Resources */,
+				36D5DED1144C8080007EDD88 /* icon1-white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +480,6 @@
 			files = (
 				D121C5C51441D60600C955F9 /* main.m in Sources */,
 				D121C5CC1441D60600C955F9 /* iSeriesAppDelegate.m in Sources */,
-				D121C5F01441D67800C955F9 /* LoginController.m in Sources */,
 				D1CF20D11441F34B003D27A5 /* ASIDataCompressor.m in Sources */,
 				D1CF20D21441F34B003D27A5 /* ASIDataDecompressor.m in Sources */,
 				D1CF20D31441F34B003D27A5 /* ASIDownloadCache.m in Sources */,
@@ -437,6 +489,7 @@
 				D1CF20D71441F34B003D27A5 /* ASINetworkQueue.m in Sources */,
 				D1CF20DB14420A77003D27A5 /* NSString+MD5.m in Sources */,
 				D1767B6314422E72008DDF7C /* Member.m in Sources */,
+				36D5DED6144C8147007EDD88 /* EDSideBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +567,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -534,7 +587,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
