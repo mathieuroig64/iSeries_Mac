@@ -1,4 +1,7 @@
 ffffffffffffffffffffffffffffffff 2286733d805a0380182b4bf558ac09d5 ffffffffffffffffffffffffffffffff 102 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app
+ffffffffffffffffffffffffffffffff a15543f68190c6a6bc0ca9a60069535e ffffffffffffffffffffffffffffffff 432272 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/MacOS/iSeries
+da372bbc100899cc64f7bac6418d8e80 1bffe217993348973deceec6e3b16f44 ffffffffffffffffffffffffffffffff 62128 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/EDSideBar.o
+da372bbc5e95dcb664f7bac6418d8f2c 12bb9211dd33260d60de64d095dc58a1 ffffffffffffffffffffffffffffffff 34856 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.o
 000000004e96d9de00000000000000cc 1f3e42c7a237e79d15b64a51928981c2 ffffffffffffffffffffffffffffffff 204 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/Frameworks/YAJL.framework
 00000000000000000000000000000000 570510c13c9391f7086a3b81e88f322d ffffffffffffffffffffffffffffffff 2482 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/Resources/icon1-white.png
 00000000000000000000000000000000 bf2e4c03cbba9b731613e9af02a4c6e2 ffffffffffffffffffffffffffffffff 2432 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/Resources/icon1-gray.png
@@ -6,8 +9,6 @@ ffffffffffffffffffffffffffffffff 2286733d805a0380182b4bf558ac09d5 ffffffffffffff
 000000004e9d45960000000000025b66 4a9f555158476cc2362ee49db1a51f96 ffffffffffffffffffffffffffffffff 27088 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/Resources/en.lproj/MainMenu.nib
 00000000000000000000000000000000 51dea4f55d0bb896913128f8c6a4a10f ffffffffffffffffffffffffffffffff 436 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/Resources/en.lproj/Credits.rtf
 000000004e96d9de000000000000002d b802d19f14f195e5f3a36c032795cc91 ffffffffffffffffffffffffffffffff 92 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/Resources/en.lproj/InfoPlist.strings
-ffffffffffffffffffffffffffffffff a15543f68190c6a6bc0ca9a60069535e ffffffffffffffffffffffffffffffff 432272 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/MacOS/iSeries
-ffffffffffffffffffffffffffffffff 1bffe217993348973deceec6e3b16f44 ffffffffffffffffffffffffffffffff 62128 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/EDSideBar.o
 ffffffffffffffffffffffffffffffff 2362fa86e706803af99bdb08f9b76de2 ffffffffffffffffffffffffffffffff 8816 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/Member.o
 ffffffffffffffffffffffffffffffff 9cca09b4721735037429f200d6159968 ffffffffffffffffffffffffffffffff 4976 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/NSString+MD5.o
 ffffffffffffffffffffffffffffffff dfe72f4a2e59a5e248a5aae9ce98ed3e ffffffffffffffffffffffffffffffff 73604 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/ASINetworkQueue.o
@@ -17,7 +18,6 @@ ffffffffffffffffffffffffffffffff 921ceacdafd8285e2b8a42c2db3fb8c3 ffffffffffffff
 ffffffffffffffffffffffffffffffff fe9f3b2e1df8b4ea2c4737e4bf4896af ffffffffffffffffffffffffffffffff 69964 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/ASIDownloadCache.o
 ffffffffffffffffffffffffffffffff 05991cbb67bc3548ca79bfc89f786d43 ffffffffffffffffffffffffffffffff 22456 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/ASIDataDecompressor.o
 ffffffffffffffffffffffffffffffff 4d0a6a1b59a59bd85229a23862304d89 ffffffffffffffffffffffffffffffff 22536 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/ASIDataCompressor.o
-da372bbc5e94c7d964f7bac6418d8f2c 12bb9211dd33260d60de64d095dc58a1 ffffffffffffffffffffffffffffffff 34856 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/iSeriesAppDelegate.o
 ffffffffffffffffffffffffffffffff e3964d3600b7760d5b4c90354969b3ca ffffffffffffffffffffffffffffffff 2216 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/iSeries.build/Debug/iSeries.build/Objects-normal/x86_64/main.o
 00000000000000000000000000000000 da372bbc5e95d06464f7bac6418d8b4f ffffffffffffffffffffffffffffffff 11053132 /var/folders/54/1fzhxqcj4cl__89bs3tqdjlwmh5vy3/C/com.apple.Xcode.688058307/SharedPrecompiledHeaders/iSeries-Prefix-duolmgyrrawzmyarflkpwhgpjige/iSeries-Prefix.pch.pth
 00000000000000000000000000000000 384c9dd02cde07ad60e43bba1ee89eec ffffffffffffffffffffffffffffffff 8 /Users/mrg/Documents/Dev/Perso/iSeries_Mac/build/Debug/iSeries.app/Contents/PkgInfo

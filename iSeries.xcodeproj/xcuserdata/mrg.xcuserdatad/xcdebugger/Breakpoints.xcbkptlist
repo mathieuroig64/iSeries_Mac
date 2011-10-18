@@ -8,20 +8,6 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "iSeries/EDSideBar.m"
-         timestampString = "340622622.402092"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "158"
-         endingLineNumber = "158"
-         landmarkName = "-initWithFrame:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
          filePath = "iSeries/iSeriesAppDelegate.m"
          timestampString = "340622961.980516"
          startingColumnNumber = "9223372036854775807"

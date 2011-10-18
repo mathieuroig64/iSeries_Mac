@@ -48,7 +48,7 @@ typedef NSUInteger ECSideBarLayoutMode;
 -(id)cellForItem:(NSInteger)index;
 
 @property (nonatomic,retain) NSColor *backgroundColor;
-@property (nonatomic,retain) id<EDSideBarDelegate>sidebarDelegate;
+@property (nonatomic,assign) id<EDSideBarDelegate>sidebarDelegate;
 @property (nonatomic,retain,setter=setCellClass:) Class cellClass;
 @property (setter=setLayoutMode:) ECSideBarLayoutMode layoutMode;
 @property (setter=setButtonsHeight:) CGFloat buttonsHeight;

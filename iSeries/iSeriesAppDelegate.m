@@ -22,8 +22,8 @@
 {
   [super awakeFromNib];
   //NSRect rectFrame = NSRectFromCGRect(CGRectMake(0, 0, 73, 453));
-  leftBar_ = [[EDSideBar alloc] init];
-	[leftBar_ setLayoutMode:ECSideBarLayoutTop];
+  //leftBar_ = [[EDSideBar alloc] init];
+  [leftBar_ setLayoutMode:ECSideBarLayoutTop];
 	[leftBar_ setAnimateSelection:YES];
 	[leftBar_ setSidebarDelegate:self];
 	NSImage * selImage =[self buildSelectionImage];
